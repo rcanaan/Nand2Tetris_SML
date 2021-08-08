@@ -1,0 +1,91 @@
+
+class Border {
+   
+   field int size; 
+
+   constructor Border new(int Asize) 
+   {
+      let size = Asize;
+      do draw();
+      return this;
+   }
+
+   
+   method void draw() {
+      do Screen.setColor(true);
+      do Screen.drawCircle(size, size * 12, 10);
+      do Screen.drawCircle(size, size * 11, 10);
+      do Screen.drawCircle(size, size * 10, 10);
+      do Screen.drawCircle(size, size * 9, 10);
+      do Screen.drawCircle(size, size * 8, 10);
+      do Screen.drawCircle(size, size * 7, 10);
+      do Screen.drawCircle(size, size * 6, 10);
+      do Screen.drawCircle(size, size * 5, 10);
+      do Screen.drawCircle(size, size * 4, 10);
+      do Screen.drawCircle(size, size * 3, 10);
+      do Screen.drawCircle(size, size * 2, 10);
+      do Screen.drawCircle(size, size, 10);
+
+      do Screen.drawCircle(size * 2, size, 10);
+      do Screen.drawCircle(size * 3, size, 10);
+      do Screen.drawCircle(size * 4, size, 10);
+      do Screen.drawCircle(size * 5, size, 10);
+      do Screen.drawCircle(size * 6, size, 10);
+      do Screen.drawCircle(size * 7, size, 10);
+      do Screen.drawCircle(size * 8, size, 10);
+      do Screen.drawCircle(size * 9, size, 10);
+      do Screen.drawCircle(size * 10, size, 10);
+      do Screen.drawCircle(size * 11, size, 10);
+      do Screen.drawCircle(size * 12, size, 10);
+      do Screen.drawCircle(size * 13, size, 10);
+      do Screen.drawCircle(size * 14, size, 10);
+      do Screen.drawCircle(size * 15, size, 10);
+      do Screen.drawCircle(size * 16, size, 10);
+      do Screen.drawCircle(size * 17, size, 10);
+      do Screen.drawCircle(size * 18, size, 10);
+      do Screen.drawCircle(size * 19, size, 10);
+      do Screen.drawCircle(size * 20, size, 10);
+      do Screen.drawCircle(size * 21, size, 10);
+      do Screen.drawCircle(size * 22, size, 10);
+      do Screen.drawCircle(size * 23, size, 10);
+      do Screen.drawCircle(size * 24, size, 10);
+
+      do Screen.drawCircle(size * 24, size * 2, 10);
+      do Screen.drawCircle(size * 24, size * 3, 10);
+      do Screen.drawCircle(size * 24, size * 4, 10);
+      do Screen.drawCircle(size * 24, size * 5, 10);
+      do Screen.drawCircle(size * 24, size * 6, 10);
+      do Screen.drawCircle(size * 24, size * 7, 10);
+      do Screen.drawCircle(size * 24, size * 8, 10);
+      do Screen.drawCircle(size * 24, size * 9, 10);
+      do Screen.drawCircle(size * 24, size * 10, 10);
+      do Screen.drawCircle(size * 24, size * 11, 10);
+      do Screen.drawCircle(size * 24, size * 12, 10);
+
+      do Screen.drawCircle(size * 24, size * 12, 10);
+      do Screen.drawCircle(size * 23, size * 12, 10);
+      do Screen.drawCircle(size * 22, size * 12, 10);
+      do Screen.drawCircle(size * 21, size * 12, 10);
+      do Screen.drawCircle(size * 20, size * 12, 10);
+      do Screen.drawCircle(size * 19, size * 12, 10);
+      do Screen.drawCircle(size * 18, size * 12, 10);
+      do Screen.drawCircle(size * 17, size * 12, 10);
+      do Screen.drawCircle(size * 16, size * 12, 10);
+      do Screen.drawCircle(size * 15, size * 12, 10);
+      do Screen.drawCircle(size * 14, size * 12, 10);
+      do Screen.drawCircle(size * 13, size * 12, 10);
+      do Screen.drawCircle(size * 12, size * 12, 10);
+      do Screen.drawCircle(size * 11, size * 12, 10);
+      do Screen.drawCircle(size * 10, size * 12, 10);
+      do Screen.drawCircle(size * 9, size * 12, 10);
+      do Screen.drawCircle(size * 8, size * 12, 10);
+      do Screen.drawCircle(size * 7, size * 12, 10);
+      do Screen.drawCircle(size * 6, size * 12, 10);
+      do Screen.drawCircle(size * 5, size * 12, 10);
+      do Screen.drawCircle(size * 4, size * 12, 10);
+      do Screen.drawCircle(size * 3, size * 12, 10);
+      do Screen.drawCircle(size * 2, size * 12, 10);
+
+      return;
+   }
+}

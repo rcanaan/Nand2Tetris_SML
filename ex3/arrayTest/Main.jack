@@ -1,0 +1,38 @@
+/* Simple guess my number game */
+class Main 
+{
+	function void main() 
+	{
+		var int myNum, guess, maxGuesses, guessCount, border;
+           var Text text, wrong;
+
+		let myNum = Random.mod(31, 35);
+		let maxGuesses = 5;
+		let guessCount = 0;
+		
+		let border = Border.new(20);
+           let text = Text.new();
+
+		let guess = Keyboard.readInt(" ");
+		let guessCount = guessCount + 1;
+
+		while(~(guess = myNum) & (guessCount < maxGuesses))
+		{
+                do Text.wrong();			
+                let guess = Keyboard.readInt(" ");
+			let guessCount = guessCount + 1;
+		}
+
+		if(~(guess = myNum))
+		{
+			do Text.nomore();
+		}
+		
+           else
+		{
+			do Text.right();
+			do Output.println();
+		}
+		return;
+	}
+}

@@ -1,0 +1,57 @@
+class Text {
+
+constructor Text new() {
+    do Output.moveCursor(5, 23);
+    do Output.printString("THE GUESSING GAME!");
+    do Output.moveCursor(6, 24);
+    do Output.printString("----------------");
+    do Output.moveCursor(7, 15);
+    do Output.printString("I chose a number between 1 and 50,");
+    do Output.moveCursor(8, 23);
+    do Output.printString("can you guess it??");
+    do Output.moveCursor(10, 30);
+
+    return this;
+  }
+
+ 
+  function void wrong() {
+    do Output.moveCursor(10, 30);
+    do Output.printString("               ");
+    do Output.moveCursor(12, 24);
+    do Output.printString("WRONG! Try Again");
+  do Output.moveCursor(10, 30);
+
+    return;
+  }
+
+  function void right() {
+    do Output.moveCursor(12, 24);
+    do Output.printString("                     ");
+    do Output.moveCursor(12, 24);
+    do Output.printString("CONGRATULATIONS!!!");
+    do Output.moveCursor(13, 21);
+    do Output.printString("You got the right number");
+    do Output.moveCursor(18, 23);
+    do Output.printString("See you next time :)");
+
+    return;
+  }
+
+  function void nomore() {
+    do Output.moveCursor(12, 24);
+    do Output.printString("                     ");
+    do Output.moveCursor(12, 27);
+    do Output.printString("GAME OVER!");
+    do Output.moveCursor(14, 18);
+    do Output.printString("I'm sorry but you had your try");
+    do Output.moveCursor(15, 24);
+    do Output.printString("My number was 31");
+    do Output.moveCursor(18, 23);
+    do Output.printString("See you next time :)");
+
+    return;
+  }
+
+
+}
